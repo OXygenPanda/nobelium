@@ -2,6 +2,10 @@ module.exports = {
   future: {
     webpack5: true
   },
+    server: {
+    host: '0.0.0.0',
+    port: 80
+  },
   async headers() {
     return [
       {
